@@ -11,7 +11,7 @@ function userInput () {
     document.getElementById('passengerName').innerHTML = userNames;
     
     let userKm = document.getElementById("user_km").value;
-    console.log(userKm)
+    
 
     let userAge = document.getElementById("userAge").value;
     document.getElementById('ticket').innerHTML = "Biglietto " + userAge;
@@ -20,12 +20,12 @@ function userInput () {
 
     document.getElementById('cpCode').innerHTML = Math.floor(Math.random()*90000) + 10000;
 
-    let kmPrice = 0.21
-    let normalPrice = userKm * kmPrice
+    let kmPrice = 0.21;
+    let normalPrice = userKm * kmPrice;
 
     let discountTwenty = (normalPrice / 100) * 20;
     let finalPrice_twenty = normalPrice - discountTwenty;
-    console.log(finalPrice_twenty)
+    
 
 
     let discountFourty = (normalPrice / 100) * 40;
