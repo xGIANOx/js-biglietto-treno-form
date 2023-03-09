@@ -1,0 +1,35 @@
+
+body{
+    background-color: #b91450;
+}
+
+label{
+    color: #b91450;
+}
+
+.border_red{
+    border: 2px solid #b91450;
+}
+.generate_btn{
+    border: 3px solid orange;
+    color: #b91450;
+    background-color: lightgray;
+    font-weight: bold
+}
+
+.cancel_btn{
+    border: 3px solid gray;
+    color: #b91450;
+    background-color: lightgray;
+    font-weight: bold
+}
+
+.container_small{
+    width: 70%;
+    margin: auto;
+}
+
+.container_md{
+    width: 95%;
+    margin: auto;
+}
